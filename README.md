@@ -1,2 +1,2 @@
 # github.io
-a portfolio project
+a github pages portfolio project

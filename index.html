@@ -1,1 +1,833 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>github.io | kiddjsh</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<!-- Font Awesome Icons-->
+<link rel="stylesheet" href="~/lib/Font-Awesome/css/fontawesome.min.css">
+<link rel="stylesheet" href="~/lib/Font-Awesome/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.5/css/all.min.css">
+<!-- Fork Awesome Icons-->
+<link rel="stylesheet" href="~/lib/fork-awesome/css/fork-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" 
+      integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.6/css/fork-awesome.css" 
+      integrity="sha256-kdV2mkChqt3z0hO8yZH5Aj+rDViItN8n9iu91TAPjlA=" crossorigin="anonymous" />
+
+
+
+<script src="https://kit.fontawesome.com/1df1022d2c.js" crossorigin="anonymous"></script>
+<!-- Begin CSS Style -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.right {
+  position: fixed;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  left: 750px;
+  background-image: url("https://i.postimg.cc/zGs7Mv88/headshot-io.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.left {
+  float: left;
+  width: 750px;
+  padding: 0 8px 0 8px;
+  box-sizing:border-box;
+}
+
+/* Begin Hamburger Menu */
+#menu__toggle {
+  opacity: 0;
+}
+#menu__toggle:checked + .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked + .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+#menu__toggle:checked + .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  left: 0 !important;
+}
+.menu__btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+.menu__box {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 800px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: black;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+  transition-duration: .25s;
+}
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+/* End Hamburger Menu */
+
+ /* Begin Header Fonts */
+h1.jumbo {
+    font-size: 60px;
+}
+h2.color {
+    color: grey;
+}
+h3.color {
+    color: grey;
+}
+ /* End Header Fonts */
+
+ /* Begin Header Buttons */
+.btn {
+  background-color: lightgrey;
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  position: center;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: grey;
+} 
+ /* End Header Buttons */
+
+/* Begin About style.css */
+.text {
+  text-align: justify;
+  font-size: 15px;
+}
+
+/* End About style.css */
+
+/* Begin Portfolio style.css */
+ .row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+#gitlabel { /* image text id */
+    margin-bottom: 1%;
+}
+
+#dynamolabel {
+    margin-bottom: 1%;
+}
+
+#eaterylabel {
+    margin-bottom: 1%;
+}
+
+#treasurelabel {
+    margin-bottom: 1%;
+}
+
+#insulinlabel {
+    margin-bottom: 1%;
+}
+
+#lamplabel {
+    margin-bottom: 1%;
+}
+
+#cygwinlabel {
+    margin-bottom: 1%;
+}
+
+#puzzlelabel {
+    margin-bottom: 1%;
+}
+
+#bubbleslabel {
+    margin-bottom: 1%;
+} /* image text id */
+
+ .thumbnail{ /* thumbnail  */
+    width: 100px;
+    position:relative;
+ }
+ .thumbnail:hover {
+     transform: scale(1.2);
+} /* thumbnail */
+
+#groupone {
+  margin-left: 10px;
+  float: right;
+}
+
+#simpleicons {
+  margin-top: -2px; 
+}
+
+.button1 {
+    margin-left: 99px;
+    border: none;
+    background-color: white;
+}
+.button1:hover {
+    transform: scale(2.1);
+}
+.button2 {
+    margin-left: 85px;
+    border: none;
+    background-color: white;
+}
+.button2:hover {
+    transform: scale(2.1);
+}
+.button3 {
+    margin-left: 65px;
+    border: none;
+    background-color: white;
+}
+.button3:hover {
+    transform: scale(2.1);
+}
+.button4 {
+    margin-left: 51px;
+    border: none;
+    background-color: white;
+}
+.button4:hover {
+    transform: scale(2.1);
+}
+.button5 {
+    margin-left: 47px;
+    border: none;
+    background-color: white;
+}
+.button5:hover {
+    transform: scale(2.1);
+}
+.button6 {
+    margin-left: 75px;
+    border: none;
+    background-color: white;
+}
+.button6:hover {
+    transform: scale(2.1);
+}
+.button7 {
+    margin-left: 126px;
+    border: none;
+    background-color: white;
+}
+.button7:hover {
+    transform: scale(2.1);
+}
+.button8 {
+    margin-left: 63px;
+    border: none;
+    background-color: white;
+}
+.button8:hover {
+    transform: scale(2.1);
+}
+.button9 {
+    margin-left: 38px;
+    border: none;
+    background-color: white;
+}
+.button9:hover {
+    transform: scale(2.1);
+}
+.button10 {
+    margin-left: 10px;
+}
+/* End Portfolio style.css */
+
+/* Begin Reputation style.css */
+#image1 {
+  border-radius: 75%;
+}
+
+#span1 {
+  font-size: 20px;
+  color:black;
+}
+
+#certified:hover {
+    transform: scale(2.1);
+}
+/* End Reputation style.css */
+
+/* Begin Contact Me style.css */
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0%;
+}
+
+form {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 5px 0;
+}
+
+input,
+textarea,
+label {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  border: 0;
+  border-bottom: .5px solid lightgray;
+
+}
+
+input,
+textarea {
+  color: black;
+  font-size: 015px;
+  padding: 10px;
+}
+/* End Contact Me style.css */
+
+/* Begin ID Tags style.css */
+#footer .fa{
+    padding-right: 25px!important;
+    color: lightgray;
+}
+
+#footer .fa:hover{
+    color: grey;
+}
+
+#gitlink:hover {
+    color: greenyellow;
+}
+
+#namelink:hover {
+    color: greenyellow;
+}
+ /* End Font Awesome Icons */
+</style>
+<!-- End CSS Style -->
+</head>
+
+<!-- Begin HTML Style -->
+<body>
+    <!-- Hambuger Menu -->
+    <nav class="hamburger-menu" id="hamMenu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span>
+            </span>
+        </label>
+        <div class="menu__box">
+            <li><a class="menu__item" href="#mlink" onclick="closeNav()">Main</a></li>
+            <li><a class="menu__item" href="#plink" onclick="closeNav()">Portfolio</a></li>
+            <li><a class="menu__item" href="#alink" onclick="closeNav()">About</a></li>
+            <li><a class="menu__item" href="#clink" onclick="closeNav()">Contact Me</a></li>
+            <li><a class="menu__item" href="#slink" onclick="closeNav()">Social Media</a></li>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+    <div class="left">
+    <!-- End Hambuger Menu -->
+    
+    <!-- Page Content -->
+    <div class="main padding-large" style="margin-left:10%">
+    
+    <!-- Main -->
+    <header class="container center" style="padding:180px 10px" id="main">
+    <h1 class="jumbo" style="margin-left:15%" id="mlink">
+        <b>Joshua Kidder</b>
+    </h1>
+    <p class="" style="margin-left:10%">
+        Software Programmer and AWS Certified Cloud Practitioner.
+    </p>
+
+    <!-- Download Button / Auto width -->
+    <a href=
+        "C:\Users\KidderJoshua\Documents\Visual Studio Code\Repositories\github.io\docs\JoshuaKidder_Resume.doc" 
+        download>
+       <button class="btn" style="margin-top:4%; margin-left:30%">
+       <i class="fa fa-download"></i> 
+          Download Resume
+      </button>
+    </a>
+    </header>
+
+    <!-- Portfolio Section -->
+    <div class="padding-32 content" id="portfolio">
+    <h2 class="color" id="plink">portfolio</h2>
+    <hr class="opacity">
+
+    <!-- 
+    <button onclick="one()" style="margin-top:4%; margin-left:20%">Single Column</button>
+    <button onclick="two()" style="margin-top:4%; margin-left:20%">Double Column</button>
+    -->
+
+    <!-- Grid for photos -->
+    <div class="row">
+        <div class="column">
+            <p class="content"; id="gitlabel">github.io | web design
+                <a href="404.html">
+                    <button class="button1">
+                        <img height="20" width="25" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/files.svg" />
+                    </button>
+                </a>
+            </p>
+                <a href="https://github.com/kiddjsh/github.io">
+                    <img src="https://i.postimg.cc/J7Q5Dt8L/github-io.png" 
+                        class="thumbnail" style="width:100%">
+                </a>
+                <div class="icons">
+                    <span class=""; id="groupone">
+                    <i class="fab fa-github"></i>
+                    <img height="16" width="16" id="simpleicons" 
+                        src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/visualstudiocode.svg" />
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-php"></i>
+                    </span>
+                </div><br><br>            
+            <p class="content"; id="dynamolabel">architectingDynamoDB
+                <a href="https://www.dropbox.com/scl/fi/tmc02rdbn2oiikdaf52wz/AWS-reStart-Architecting_Developing-with-Amazon-DynamoDB-utilizing-GitHub.odt?dl=0&rlkey=40qjth59bj3nmin373xu9ncoa">
+                    <button class="button2">
+                        <img height="20" width="25" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/files.svg" />
+                    </button>
+                </a>
+            </p>
+                <a href="https://github.com/kiddjsh/architectingDynamoDB">
+                    <img src="https://i.postimg.cc/pT4FF9C2/architecting-Dynamo-DB.jpg" 
+                        class="thumbnail" style="width:100%">
+                </a>
+                <div class="icons">
+                    <span class=""; id="groupone">
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-aws"></i>
+                        <i class="fa solid fa-cloud"></i>
+                        <i class="fab fa-python"></i>
+                    </span>
+                </div><br><br>
+            <p class="content"; id="eaterylabel">the eatery | android studio
+                <a href="https://www.dropbox.com/scl/fi/0pbwijxr9e7bjce9pr8to/CEIS320_Kidder_DesignBrief_WK8.docx?dl=0&rlkey=x02zkrf6v9hxsc5ffoy7xy3wy">
+                    <button class="button3">
+                        <img height="20" width="25" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/files.svg" />
+                    </button>
+                </a>
+            </p>
+                <a href="https://github.com/kiddjsh/TheEatery">
+                    <img src="https://i.postimg.cc/668K6CkJ/the-Eatery.png" 
+                        class="thumbnail" style="width:100%">
+                </a>
+                <div class="icons">
+                    <span class=""; id="groupone">
+                        <i class="fab fa-github"></i>
+                        <img height="16" width="16" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/androidstudio.svg" />
+                        <i class="fab fa-java"></i>
+                        <i class="fa light fa-code"></i>
+                    </span>
+                </div><br><br>
+            <p class="content"; id="treasurelabel">treasure cave | game design
+                <a href="https://www.dropbox.com/scl/fi/486ds2ljpli4lmy9ln4t0/Kidder_Game-Design-Document.docx?dl=0&rlkey=z1z1r77ezjrn16s72mhcgm64q">
+                    <button class="button4">
+                        <img height="20" width="25" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/files.svg" />
+                    </button>
+                </a>
+            </p>
+                <a href="https://github.com/kiddjsh/Treasure-Cave">
+                    <img src="https://i.postimg.cc/YCRGrmB4/treasure-Cave.png" 
+                        class="thumbnail" style="width:100%">
+                </a>
+                <div class="icons">
+                    <span class=""; id="groupone">
+                        <i class="fab fa-github"></i>
+                        <img height="16" width="16" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/visualstudio.svg" />
+                        <i class="fab fa-c"></i>
+                    </span>
+                </div>
+        </div>
+        <div class="column">
+            <p class="content"; id="insulinlabel">aws re/start | analyingInsulin
+                <a href="https://www.dropbox.com/scl/fi/fultu7cl4z52wwj0jq4mo/118-Kidder_iLab_Preparing-to-Analyze-Insulin-with-Python.docx?dl=0&rlkey=5qa1gky3pql6ltddvpvrisinj">
+                    <button class="button5">
+                        <img height="20" width="25" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/files.svg" />
+                    </button>
+                </a>
+            </p>
+                <a href="https://github.com/kiddjsh/analyzingInsulin">
+                    <img src="https://i.postimg.cc/bNxYCJcJ/analyzing-Insulin.png" 
+                        class="thumbnail" style="width:100%">
+                </a>
+                <div class="icons">
+                    <span class=""; id="groupone">
+                        <i class="fab fa-github"></i>
+                        <img height="16" width="16" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/visualstudiocode.svg" />
+                        <i class="fab fa-python"></i>
+                    </span>
+                </div><br><br>
+            <p class="content"; id="lamplabel">aws re/start | LAMP Stack
+                <a href="https://www.dropbox.com/scl/fi/jrva2cwi13n4tsydl3ues/173-Kidder_iLab_JAWS-Troubleshoot-Create-Instance-ACTIVITY.docx?dl=0&rlkey=x9cdt0cddx87gdlr2eugbtuwl">
+                    <button class="button6">
+                        <img height="20" width="25" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/files.svg" />
+                    </button>
+                </a>
+            </p>
+                <a href="https://www.dropbox.com/scl/fi/jrva2cwi13n4tsydl3ues/173-Kidder_iLab_JAWS-Troubleshoot-Create-Instance-ACTIVITY.docx?dl=0&rlkey=x9cdt0cddx87gdlr2eugbtuwl">
+                    <img src="https://i.postimg.cc/g21xKgT3/amazon-Lamp-Instance.png" 
+                        class="thumbnail" style="width:100%">
+                </a>
+                <div class="icons">
+                    <span class=""; id="groupone">
+                        <i class="fab fa-aws"></i>
+                        <img height="20" width="15" margin-top="-6px" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/mariadb.svg" />
+                        <i class="fab fa-ubuntu"></i>
+                        <img height="15" width="15" margin-top="-4px" margin-left="2px" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/apache.svg" />
+                        <i class="fab fa-php" margin-left="-3px"></i>
+                        <img height="16" width="16" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/gnubash.svg" />
+                        <img height="14" width="14" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/json.svg" />
+                        <i class="fab fa-linux"></i>
+                    </span>
+                </div><br><br>
+            <p class="content"; id="cygwinlabel">cygwin web server
+                <a href="404.html">
+                    <button class="button7">
+                        <img height="20" width="25" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/files.svg" />
+                    </button>
+                  </a>
+            </p>
+                <a href="https://github.com/kiddjsh/cygwinTinyWebServer">
+                    <img src="https://i.postimg.cc/4ySR3kRM/cygwin-Web-Server.jpg" 
+                        class="thumbnail" style="width:100%">
+                </a>
+                <div class="icons">
+                    <span class=""; id="groupone">
+                        <i class="fab fa-github"></i>
+                        <img height="16" width="16" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/visualstudiocode.svg" />
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-c"></i>
+                        <img height="14" width="14" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/microsoftazure.svg" />
+                    </span>
+                </div><br><br>
+            <p class="content"; id="puzzlelabel">o'hare kiosk | game design
+                <a href="https://www.dropbox.com/scl/fi/3a88o80z7fowr9nyrqymk/TeamC_GameProposalReport_WK8.docx?dl=0&rlkey=m4qwasccpdq9v8uetm42gvi8g">
+                    <button class="button8">
+                        <img height="20" width="25" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/files.svg" />
+                    </button>
+                </a>
+            </p>
+                <a href="https://github.com/teamc-ohare/puzzle-of-puzzles-crossword">
+                    <img src="https://i.postimg.cc/v8XRBMHN/puzzle-Game.png" 
+                        class="thumbnail" style="width:100%">
+                </a>
+                <div class="icons">
+                    <span class=""; id="groupone">
+                        <i class="fab fa-github"></i>
+                        <img height="16" width="16" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/visualstudiocode.svg" />
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3"></i>
+                    </span>
+                </div><br><br>
+            <p class="content"; id="bubblelabel">bubblesCollide | game design
+                <a href="404.html">
+                    <button class="button9">
+                        <img height="20" width="25" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/files.svg" />
+                    </button>
+                </a>
+            </p>
+                <a href="https://github.com/kiddjsh/bubblesCollide">
+                    <img src="https://i.postimg.cc/4xwZxG1n/bubbles-Collide.png" 
+                        class="thumbnail" style="width:100%">
+                </a>
+                <div class="icons">
+                    <span class=""; id="groupone">
+                        <i class="fab fa-github"></i>
+                        <img height="16" width="16" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/visualstudiocode.svg" />
+                        <img height="16" width="16" id="simpleicons" 
+                            src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/cplusplus.svg" />
+                    </span>
+                </div><br><br>
+        </div>
+        <!-- End photo grid -->
+
+    <!-- End Portfolio Section -->
+    </div>
+
+    <!-- About Section -->
+    <div class="content" id="about">
+    <h2 class="color" id="alink" style="margin-top:10%">about.io</h2>
+    <hr class="opacity">
+    <p class="text">Joshua Kidder graduated from DeVry University, with a Bachelor of Science in Computer Information Systems, 
+		   Software Programming in April 2021; a graduate of Per Scholas & Amazon Testing & Certification through the AWS 
+		   re/Start program as a AWS Certified Cloud Practitioner (CCP); a graduate from Villanova University with a Master 
+		   Certificate in Software Testing emphasizing in Business Analysis, Software Testing and ISTQB; and also a graduate 
+		   from Fort Gordon Signal Center with a Technical Diploma as a Signal Support Systems Specialist, in roles as a 
+		   Level I System Administrator, and Information Manager. Joshua Kidder served in the United States Army from 
+		   2001-2005, receiving an Honorable Discharge, and graduated from DeVry University in April 2021 with Honors, 
+		   Magna Cum Laude, as well as a member of the National Society of Leadership & Success, Sigma Alpha Pi, 
+       Presedential Membership; currently enrolled in the AWS re/Start Architecting (SA) course as an Amazon Graduate, 
+       working towards the AWS Solutions Architect Certification.
+    </p>
+    <h2 class="color"; style="margin-top:10%">skills.io</h2>
+    <p class="text">EDI • ANSI X12 • SDLC • Visual Studio • C, C#, C++, OPP, .Net • Visio • SQL Server, MS SQL, 
+        SQLite, MariaDB • MS Access • Unix, Linux • MS Project • Project Management • STLC • Software Testing • 
+        JIRA • Debugging • ISTQB • Software Architecture • ERD & UML Diagrams • Technical Writing • OOAD 
+        Diagrams • Android Studio Mobile Development • Java • HTML5 • CSS • HDT • XML • Cisco Networking • 
+        Python • Xamarin • SyncFusion • XMAL • GitHub • Packet Tracer • Bash Scripting • Amazon Web Services • 
+        Office 365 • Nmap • MSF Venom • Metasploit • SQL Attack • DDOS Attack • Network/Webkiller • Websploit • 
+        AutoCAD • Cryptographic Computing • TCP/IP Model • Telnet • SSH • FTP • Wireshark • Network Diagram • 
+        LAN Diagram • Rack Diagram • Cisco Switch & Router Configuration • SNMP Network Management • VLAN • 
+        vsFTP Configuration • TigerVNC • Static Network Configuration • DHCP Server & Client Configuration • 
+        IPSec Configuration • Managing CA Certificate Templates • Ettercap (MitM) • ARP Spoofing  • NETCAT • 
+        ZENMAP • Wrapping Malware • Httprecon • Fingerprinting Web Servers • Exploiting Google Dork Strings • 
+        SQLMAP • Exploiting WIFI, WEP WPS • Aircrack-ng • Vistumbler • SNORT • IDS Systems • Manipulating IP 
+        to EVADE IDS Systems • PEN Test
+    </p>
+    </div>
+
+    <!-- Download Button / Auto width -->
+    <a href="C:\Users\KidderJoshua\Documents\Visual Studio Code\Repositories\github.io\docs\JoshuaKidder___CV.pdf" 
+        download>
+          <button class="btn" style="margin-top:4%; margin-left:30%">
+              <i class="fa fa-download">
+              </i> Download CV
+          </button>
+    </a>
+
+    <!-- Reputation -->
+        <h2 class="color"; style="margin-top:20%">reputation.io</h2>
+            <img src="https://i.postimg.cc/Wz1kYxDb/Lee-Brostrom.jpg" 
+                id="image1" alt="Avatar" 
+                class="left margin-right" 
+                style="width: 135px">
+            <p><span class="margin-right" id="span1">Lee Brostrom.</span> 
+                DeVry University Faculty Instructor.</p>
+            <p2 class="text">Joshua did a great job in my Senior Project class at DeVry University.
+                He successfully built a project from the given specifications under difficult circumstances. 
+                His solution was robust and met all the requirements. I recommend Joshua's work in his field 
+                as he is a quick learner and a hard worker.
+            </p2><br>
+    <!-- End Reputation -->
+
+    <!-- Begin Certifications -->
+        <h2 class="color"; style="margin-top:15%">certifications.io</h2>
+            <a href="https://www.credly.com/badges/04e873c6-649e-4a36-9fea-9f6dd4d5ee6c?source=linked_in_profile" id="certified">
+                <img src="https://i.postimg.cc/Sx7WgLRs/aws-Certified.png" 
+                    id="image2" alt="Avatar" 
+                    class="left margin-right" 
+                    style="width:135px">
+            </a>
+                <p>
+                    <span class="margin-right">AWS Training & Certification.</span> 
+                        AWS Certified Cloud Practitioner.
+                </p>
+                <p class="text">Validation Number Q8BLTC9DM24E1JCD; Expires FEB 2025</p><br>
+            <a href="https://www.credly.com/badges/8174af56-46e1-4614-bb69-6b7201678567?source=linked_in_profile" id="certified">
+                <img src="https://i.postimg.cc/L6mJRbf9/aws-Graduate.png"
+                    id="image3" alt="Avatar" 
+                    class="left margin-right" 
+                    style="width:135px">
+            </a>
+                <p>
+                    <span class="margin-right">AWS re/Start.</span> 
+                        Graduate 2022.
+                </p>
+                <p class="text">Joshua Kidder saved us from a web disaster.</p><br>
+    <!-- End Certifications -->
+    
+    <!-- Contact Section -->
+    <div class="content" id="contact" style="margin-top:15%">
+    <h2 class="color" id="clink">contact.me</h2>
+    <hr class="opacity">
+
+    <div class="section">
+        <p><i class="fa fa-map-marker fa-2x fa-fw" style="color:gray"></i> Xenia, OH</p>
+        <p><i class="fa fa-phone fa-2x fa-fw" style="color:gray"></i> Phone: +1  937.853.7637</p>
+        <p><i class="fa fa-envelope fa-2x fa-fw" style="color:gray"> </i> Email: joshua.kidder@gmail.com</p>
+    </div>
+    
+    <!-- Location/Map Image -->
+    <img src="https://i.postimg.cc/T2JcGqMT/mapXenia.png" id="image3" class="image greyscale" style="width:100%;margin:32px 0">
+   
+    <div class="container">
+        <p>Lets get in touch. Send me a message:</p>
+        <form action="mail.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject..">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Write something.."></textarea>
+            <button class="btn" style="margin-top:0%; margin-left:30%" type="submit">
+                <i class="fa fa-send-o">
+                </i> SEND MESSAGE
+            </button>
+        </form>
+    </div>
+  <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <footer class="content" style="margin-top:10%; margin-left:36%" id="footer">
+        <a href="https://github.com/kiddjsh">
+            <i class="center fa fa-github fa-3x &nbsp"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kiddjsh">
+            <i class="center fa fa-linkedin fa-3x"></i>
+        </a>
+    </footer>
+    <!-- End footer -->
+    </div> 
+  <!-- End About Section -->
+
+  <div class="container">
+      <p class="medium" id="slink" style="margin-top:3%; margin-left:22%">Powered by
+      <a href="https://github.com/" target="_blank" id="gitlink">GitHub</a> and 
+      <a href="https://www.namecheap.com/" target="_blank" id="namelink">namecheap</a>.
+      </p>
+  </div>
+
+        <p class="text" style="margin-top:0%; margin-left:23%">
+            © 2022 kiddjsh.xyz All rights reserved.
+        </p>
+  <!-- END PAGE CONTENT -->
+  </div>
+
+  </div>
+  <div class="right"></div>
+  </div>
+
+<!-- Begin Controllable Grid View script.js -->
+<script>
+// Hamburger Menu Function
+function closeNav() {
+  document.getElementById("hamMenu").style.display = "none";
+}
+
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a "loop" variable
+var i;
+
+ // Full-width images
+ function one() {
+   for (i = 0; i < elements.length; i++) {
+     elements[i].style.flex = "100%";
+   }
+ }
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "25%";
+  }
+}
+</script> 
+<!-- End Controllable Grid View script.js -->
+</body>
+<!-- End HTML Style -->
+</html>

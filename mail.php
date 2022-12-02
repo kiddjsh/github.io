@@ -1,3 +1,6 @@
+<!--It takes 48hrs or longer, when a change to the php file is 
+    made, for php services to automate the email sending process-->
+
 <?php
 
 $mail_to_send_to = "development@kiddjsh.xyz";

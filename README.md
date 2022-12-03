@@ -1,5 +1,6 @@
 # github.io
-a github pages portfolio project hosted by namecheap - https://kiddjsh.xyz/github.io/ 
+a github pages portfolio project hosted by namecheap 
+    - https://kiddjsh.xyz/github.io/ 
 
 - Web Design Using
     - HTML
@@ -10,6 +11,7 @@ a github pages portfolio project hosted by namecheap - https://kiddjsh.xyz/githu
 - Currently undergoing a three-band stylesheet for HTML, CSS, and JavaScript sections to be separated
 into individual slice files of the script language
 - Currently working on GitHub Pages
+    - https://kiddjsh.github.io/github.io/
     - For Best Results Please Use Latest Version of Internet Explorer
 
 # My Contact Form

@@ -1,7 +1,7 @@
 # github.io
 a github pages portfolio project hosted by namecheap - https://kiddjsh.xyz/github.io/ 
 
-The design of the website uses the following languages:
+- - Web Design Using
     - HTML
     - CSS
     - Javascript

@@ -16,9 +16,10 @@ into individual slice files of the script language
 Currently in PROTOTYPE. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
 
 # Known Issues
- - There is a known issue with the hamburger menu where it doesn't close properly during onClick() when using Firefox
+ - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick() when using Firefox
+ - There is a known issue where the hamburger menu disappears during closeNav() and autoscroll during hyperlink 
  - There is a known issue with the download buttons for the Resume and the CV, where it doesn't download the files properly when using Firefox, an anchor has been added to a third-party site for <button> to view the documents
- - Some of the simpleicons-file located in the portfolio section display 404 Errors when clicking the file icon
+ - Some of the file icons located in the portfolio section display 404 Errors when clicking the simpleicon
  - The main domain page displays a parking page
  - Currently you have to visit /github.io for the Contact Form to function properly
  - Currently you cannot view the website on Firefox or Chrome, a GitHub Pages error is received

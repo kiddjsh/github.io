@@ -1,5 +1,6 @@
 # github.io
-a github pages portfolio project
+a github pages portfolio project hosted by namecheap
+- https://www.kiddjsh.xyz
 
 - Web Design Using
     - HTML
@@ -14,7 +15,7 @@ into individual slice files of the script language
     - For Best Results Please Use Latest Version of Internet Explorer
 
 # My Contact Form
-Currently in PROTOTYPE. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
+Currently in PRODUCTION. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
 
 # Known Issues
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick() when using Firefox

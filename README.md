@@ -9,10 +9,14 @@ a github portfolio project hosted by namecheap
     - PHP
 # Updates
 - Currently undergoing a three-band stylesheet for HTML, CSS, and JavaScript sections to be separated
-into individual slice files of the script language
+into individual slice files of their known script languages
+- Currently adding playable game design prototypes to sub-domains
+  - Treasure Cave
+  - bubblesCollide
+  - O'Hare Crossword Puzzle
 - Currently working on GitHub Pages
-    - https://kiddjsh.github.io/github.io/
-    - For Best Results Please Use Latest Version of Internet Explorer
+  - https://kiddjsh.github.io/github.io/
+  - For Best Results Please Use Latest Version of Internet Explorer
 
 # My Contact Form
 Currently in PROTOTYPE. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.

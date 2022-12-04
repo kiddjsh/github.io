@@ -38,4 +38,4 @@ Version      | Date          | Author        | Change Description |
 1.2          | 02DEC2022  | Joshua Kidder | Updated php mail() function
 1.2          | 02DEC2022  | Joshua Kidder | Updated MX record, temp removed 404.html
 2.0          | 02DEC2022  | Joshua Kidder | Prototype php mail() function services
-2.1          | 04DEC2022  | Joshua Kidder | Resolved conflicting A Records, updated CNAME, and integrated git into namesheap
+2.1          | 04DEC2022  | Joshua Kidder | Resolved conflicting A Records, updated CNAME, and integrated git into namecheap

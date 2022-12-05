@@ -4,16 +4,17 @@
 <?php
 
 $mail_to_send_to = "development@kiddjsh.xyz";
-$from_email = "development@kiddjsh.xyz";
+$from_email = $_REQUEST['email'];
 $sendflag = $_REQUEST['sendflag'];    
 $name=$_REQUEST['name'];
+$email=$_REQUEST['email'];
+$subject=$_REQUEST['subject'];
 if ( $sendflag == "send" )
         {
-                $subject= "Message subject";
                 $email = $_REQUEST['email'] ;
                 $message= "\r\n" . "Name: $name" . "\r\n"; //get recipient name in contact form
-                $message = $message.$_REQUEST['message'] . "\r\n" ;//add message from the contact form to existing message(name of the client)
-                $headers = "From: $from_email" . "\r\n" . "Reply-To: $email"  ;
+                $message = $message.$_REQUEST['message'] . "\r\n";//add message from the contact form to existing message(name of the client)
+                $headers = "From: $from_email" . "\r\n" . "Reply-To: $email";
                 $a = mail( $mail_to_send_to, $subject, $message, $headers );
                 if ($a)
                 {
@@ -79,6 +80,17 @@ a:hover {
         </p>
     </div>
 </body>
+<footer>
+    <p class="footer">
+        <c>
+        a production of
+        <br>
+        Shade Leaf Engineering & Consulting, LLC © 2018-2022
+        <br>
+        parent company of Spitfire Productions, LLC © 2014-2022 All rights reserved.
+        </c>
+    </p>
+</footer>
 </html>
 
 ';

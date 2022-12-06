@@ -19,7 +19,7 @@ into individual slice files of their known script languages
   - For Best Results Please Use Latest Version of Internet Explorer
 
 # My Contact Form
-Currently in PROTOTYPE. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
+Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
 
 # Known Issues
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick() when using Firefox
@@ -39,4 +39,4 @@ Version      | Date          | Author        | Change Description |
 2.0          | 02DEC2022  | Joshua Kidder | Prototype php mail() function services
 2.1          | 04DEC2022  | Joshua Kidder | Resolved conflicting A Records, updated CNAME, and integrated git into namecheap
 2.1          | 05DEC2022  | Joshua Kidder | Updated the php mail() function, resolved mail subject and from email reference; updated the CV file and anchor link
-2.1          | 06DEC2022  | Joshua Kidder | Added standard email validation in contact form by changing type="text" to type="email"
+2.1          | 06DEC2022  | Joshua Kidder | Added standard email validation in contact form by changing type="text" to type="email" when clicking SEND MESSAGE button

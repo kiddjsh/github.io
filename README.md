@@ -39,3 +39,4 @@ Version      | Date          | Author        | Change Description |
 2.0          | 02DEC2022  | Joshua Kidder | Prototype php mail() function services
 2.1          | 04DEC2022  | Joshua Kidder | Resolved conflicting A Records, updated CNAME, and integrated git into namecheap
 2.1          | 05DEC2022  | Joshua Kidder | Updated the php mail() function, resolved mail subject and from email reference; updated the CV file and anchor link
+2.1          | 06DEC2022  | Joshua Kidder | Added standard email validation in contact form by changing type="text" to type="email"

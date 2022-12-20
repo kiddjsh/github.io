@@ -1,5 +1,5 @@
 # github.io
-a github pages portfolio project hosted by namecheap
+a fullstack github pages portfolio webdesign project hosted by namecheap
 - https://www.kiddjsh.xyz
 
 - Web Design Using

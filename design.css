@@ -1,0 +1,377 @@
+
+/* Begin CSS Style */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.right {
+  position: fixed;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  left: 750px;
+  background-image: url("https://i.postimg.cc/zGs7Mv88/headshot-io.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.left {
+  float: left;
+  width: 750px;
+  padding: 0 8px 0 8px;
+  box-sizing:border-box;
+}
+
+/* Begin Hamburger Menu */
+#menu__toggle {
+  opacity: 0;
+}
+#menu__toggle:checked + .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked + .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+#menu__toggle:checked + .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  left: 0 !important;
+}
+.menu__btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+.menu__box {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 800px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: black;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+  transition-duration: .25s;
+}
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+/* End Hamburger Menu */
+
+ /* Begin Header Fonts */
+h1.jumbo {
+    font-size: 60px;
+}
+h2.color {
+    color: grey;
+}
+h3.color {
+    color: grey;
+}
+ /* End Header Fonts */
+
+ /* Begin Header Buttons */
+.btn {
+  background-color: lightgrey;
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  position: center;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: grey;
+} 
+ /* End Header Buttons */
+
+/* Begin About style.css */
+.text {
+  text-align: justify;
+  font-size: 15px;
+}
+
+/* End About style.css */
+
+/* Begin Portfolio style.css */
+ .row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+#gitlabel { /* image text id */
+    margin-bottom: 1%;
+}
+
+#dynamolabel {
+    margin-bottom: 1%;
+}
+
+#eaterylabel {
+    margin-bottom: 1%;
+}
+
+#treasurelabel {
+    margin-bottom: 1%;
+}
+
+#insulinlabel {
+    margin-bottom: 1%;
+}
+
+#lamplabel {
+    margin-bottom: 1%;
+}
+
+#cygwinlabel {
+    margin-bottom: 1%;
+}
+
+#puzzlelabel {
+    margin-bottom: 1%;
+}
+
+#bubbleslabel {
+    margin-bottom: 1%;
+} /* image text id */
+
+ .thumbnail{ /* thumbnail  */
+    width: 100px;
+    position:relative;
+ }
+ .thumbnail:hover {
+     transform: scale(1.2);
+} /* thumbnail */
+
+#groupone {
+  margin-left: 10px;
+  float: right;
+}
+
+#simpleicons {
+  margin-top: -2px; 
+}
+
+.button1 {
+    margin-left: 99px;
+    border: none;
+    background-color: white;
+}
+.button1:hover {
+    transform: scale(2.1);
+}
+.button2 {
+    margin-left: 85px;
+    border: none;
+    background-color: white;
+}
+.button2:hover {
+    transform: scale(2.1);
+}
+.button3 {
+    margin-left: 65px;
+    border: none;
+    background-color: white;
+}
+.button3:hover {
+    transform: scale(2.1);
+}
+.button4 {
+    margin-left: 51px;
+    border: none;
+    background-color: white;
+}
+.button4:hover {
+    transform: scale(2.1);
+}
+.button5 {
+    margin-left: 47px;
+    border: none;
+    background-color: white;
+}
+.button5:hover {
+    transform: scale(2.1);
+}
+.button6 {
+    margin-left: 75px;
+    border: none;
+    background-color: white;
+}
+.button6:hover {
+    transform: scale(2.1);
+}
+.button7 {
+    margin-left: 126px;
+    border: none;
+    background-color: white;
+}
+.button7:hover {
+    transform: scale(2.1);
+}
+.button8 {
+    margin-left: 63px;
+    border: none;
+    background-color: white;
+}
+.button8:hover {
+    transform: scale(2.1);
+}
+.button9 {
+    margin-left: 38px;
+    border: none;
+    background-color: white;
+}
+.button9:hover {
+    transform: scale(2.1);
+}
+.button10 {
+    margin-left: 10px;
+}
+/* End Portfolio style.css */
+
+/* Begin Reputation style.css */
+#image1 {
+  border-radius: 75%;
+}
+
+#span1 {
+  font-size: 20px;
+  color:black;
+}
+/* End Reputation style.css */
+
+/* Begin Certifications style.css */
+/* End Certifications style.css */
+
+/* Begin Contact Me style.css */
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0%;
+}
+
+form {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 5px 0;
+}
+
+input,
+textarea,
+label {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  border: 0;
+  border-bottom: .5px solid lightgray;
+
+}
+
+input,
+textarea {
+  color: black;
+  font-size: 015px;
+  padding: 10px;
+}
+/* End Contact Me style.css */
+
+/* Begin Footer style.css */
+.content, footer {
+  text-decoration:none;
+}
+#footer .fa{
+    padding-right: 25px!important;
+    color: black;
+    text-decoration:none;
+}
+
+#footer .fa:hover{
+    color: black;
+    text-decoration:none;
+}
+
+#gitlink:hover {
+    color: greenyellow;
+}
+
+#namelink:hover {
+    color: greenyellow;
+}
+
+
+ /* End Footer style.css */
+
+/* End CSS Style */

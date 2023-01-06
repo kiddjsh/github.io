@@ -8,6 +8,7 @@ a fullstack github pages portfolio webdesign project hosted by namecheap
     - Javascript
     - PHP
 # Updates
+- WEBSITE CURRENTLY DOWN AFTER MAKING CHANGES TO DOWNLOAD BUTTONS
 - Completed three-band worming for HTML, CSS, and JavaScript sections, separating into their script languages
 - Currently adding my own custom 404 matrix page for unlinked page sites
 - Currently adding playable game design prototypes to sub-domains
@@ -18,6 +19,7 @@ a fullstack github pages portfolio webdesign project hosted by namecheap
 Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
 
 # Known Issues
+ - After making the changes to my download button, the page style sheet has shifted and not viewing properly on the production site, however views properly during run debugger, the website is currently down
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick()
  - There is a known issue where the hamburger menu disappears during closeNav() and autoscroll during hyperlink 
  - There is known issue with the images in the left column, when hovered, display behind the images in the right

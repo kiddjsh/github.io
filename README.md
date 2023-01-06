@@ -20,7 +20,8 @@ Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used.
 # Known Issues
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick()
  - There is a known issue where the hamburger menu disappears during closeNav() and autoscroll during hyperlink 
- - There is a known issue with the download buttons for the Resume and the CV, where it doesn't download the files properly, an anchor has been added to a third-party site for <button> to view the documents
+ - There is known issue with the images in the left column, when hovered, display behind the images in the right
+ column, instead of displaying on top
  - Some of the file icons located in the portfolio section display 404 Errors when clicking the simpleicon
  - The underscore to the left of the linkedin icon in the footer still displays even though text-decoration set to none
 
@@ -40,3 +41,5 @@ Version      | Date          | Author        | Change Description |
 2.1          | 07DEC2022  | Joshua Kidder | Updated skills.io, restructured certifications.io, updated certifications.io, updated viewable CV, updated contact form adding name-email-subject-message as required when clicking SEND MESSAGE button, updated footer icons following best practices for brand logos
 3.0          | 20DEC2022  | Joshua Kidder | Separated into three-band stylesheet, creating design.css and function.js, added css and javascript stylesheet links to index.html
 3.0          | 20DEC2022  | Joshua Kidder | Installed XAMMP Control Panel
+3.0          | 20DEC2022  | Joshua Kidder | Changed index.html to portfolio.html
+3.0          | 06JAN2023  | Joshua Kidder | Fixed download button functionality

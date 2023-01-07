@@ -1,7 +1,6 @@
 # github.io
 a fullstack github pages portfolio webdesign project hosted by namecheap
 - https://www.kiddjsh.xyz
-  - SEE BUGALERT
 
 - Web Design Using
     - HTML
@@ -9,8 +8,6 @@ a fullstack github pages portfolio webdesign project hosted by namecheap
     - Javascript
     - PHP
 # Updates
-- BUGALERT!!BUGALERT!!BUGALERT
-  - WEBSITE CURRENTLY DOWN AFTER MAKING CHANGES TO DOWNLOAD BUTTONS
 - Completed three-band worming for HTML, CSS, and JavaScript sections, separating into their script languages
 - Currently adding my own custom 404 matrix page for unlinked page sites
 - Currently adding playable game design prototypes to sub-domains
@@ -21,7 +18,6 @@ a fullstack github pages portfolio webdesign project hosted by namecheap
 Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
 
 # Known Issues
- - After making the changes to my download button, the page style sheet has shifted and not viewing properly on the production site, however views properly during run debugger, the website is currently down
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick()
  - There is a known issue where the hamburger menu disappears during closeNav() and autoscroll during hyperlink 
  - There is known issue with the images in the left column, when hovered, display behind the images in the right
@@ -47,7 +43,7 @@ Version      | Date          | Author        | Change Description |
 3.0          | 20DEC2022  | Joshua Kidder | Installed XAMMP Control Panel
 3.0          | 20DEC2022  | Joshua Kidder | Changed index.html to portfolio.html
 3.0          | 06JAN2023  | Joshua Kidder | Fixed download button functionality
-BUGALERT     | 07JAN2023  | Joshua Kidder | SITE BUG, Not Displaying Properly after download button changes implemented for ___Resume and ___CV
+BUGFIX       | 07JAN2023  | Joshua Kidder | BUGFIX!!!Site Styling Now Displaying
 3.0          | 07JAN2023  | Joshua Kidder | Fixed error "li elements must be contained in a ul or ol" in lines 41-47
 3.0          | 07JAN2023  | Joshua Kidder | Fixed errors "Images must have alternate text: Element has no title attribute", adding screen reader descriptive alt text to lines 92, 98, 104, 109, 117, 123, 137, 143, 149, 158, 164, 170, 172, 181, 187, 193, 201, 207, 213, 216, 219, 221, 229, 235, 241, 245, 252, 258, 274, 280, 286, 288, 423
 3.0          | 07JAN2023  | Joshua Kidder | Fixed errors "Link 'rel' attribute should include 'noopener'", adding rel="noopener" tag in lines 459-460

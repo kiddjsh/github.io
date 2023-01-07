@@ -1,6 +1,7 @@
 # github.io
 a fullstack github pages portfolio webdesign project hosted by namecheap
 - https://www.kiddjsh.xyz
+  - SEE BUGALERT
 
 - Web Design Using
     - HTML

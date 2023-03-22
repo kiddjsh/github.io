@@ -19,6 +19,8 @@ Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used.
 
 # Known Issues
  - !NEW! The page display has UNEXPECTEDLY changed with the right position displaying right, not left.
+     - Fixed in DEBUGGER, GITHUB PAGES & CPANEL still offset
+     - Researching Error @ Line 35 of index.html Form elements must have labels: Form element does not have an explicit <label> Element has no title attribute Element has no placeholder attribute
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick()
  - There is a known issue where the hamburger menu disappears during closeNav() and autoscroll during hyperlink
  - There is known issue with the images in the left column, when hovered, display behind the images in the right

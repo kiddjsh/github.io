@@ -18,7 +18,7 @@ a fullstack github pages portfolio webdesign project hosted by namecheap
 Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
 
 # Known Issues
- - !NEW! The page display has UNEXPECTEDLY changed with the right position displaying left, not left.
+ - !NEW! The page display has UNEXPECTEDLY changed with the right position displaying right, not left.
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick()
  - There is a known issue where the hamburger menu disappears during closeNav() and autoscroll during hyperlink
  - There is known issue with the images in the left column, when hovered, display behind the images in the right

@@ -4,11 +4,56 @@
 <?php
 
 $mail_to_send_to = "development@kiddjsh.xyz";
-$from_email = $_REQUEST['email'];
-$sendflag = $_REQUEST['sendflag'];    
-$name=$_REQUEST['name'];
-$email=$_REQUEST['email'];
+//$from_email = $_REQUEST['email'];
+if(isset($_REQUEST['email'])){
+
+    $from_email = $_REQUEST['email'];
+
+}else{
+
+    $from_email = $_GET['email'];
+
+}
+//$sendflag = $_REQUEST['sendflag'];
+if(isset($_REQUEST['sendflag'])){
+
+    $sendflag = $_REQUEST['sendflag'];
+
+}else{
+
+    $sendflag = $_GET['sendflag'];
+
+}
+//$name=$_REQUEST['name'];
+if(isset($_REQUEST['name'])){
+
+    $name = $_REQUEST['name'];
+
+}else{
+
+    $name = $_GET['name'];
+
+}
+//$email=$_REQUEST['email'];
+if(isset($_REQUEST['email'])){
+
+    $email = $_REQUEST['email'];
+
+}else{
+
+    $email = $_GET['email'];
+
+}
 $subject=$_REQUEST['subject'];
+//if(isset($_REQUEST['subject'])){
+
+    //$subject = $_REQUEST['subject'];
+
+//}else{
+
+    //$subject = $_GET['subject'];
+
+//}
 if ( $sendflag == "send" )
         {
                 $email = $_REQUEST['email'] ;
@@ -80,14 +125,17 @@ a:hover {
         </p>
     </div>
 </body>
+<br><br><br><br><br><br><br>
 <footer>
     <p class="footer">
         <c>
         a production of
         <br>
-        Shade Leaf Engineering & Consulting, LLC © 2018-2022
+        Shade Leaf Engineering & Consulting, LLC © 2018-2023
         <br>
-        parent company of Spitfire Productions, LLC © 2014-2022 All rights reserved.
+        parent company of Spitfire Productions, LLC © 2014-2023 
+        <br>
+        All Rights Reserved.
         </c>
     </p>
 </footer>
@@ -95,3 +143,4 @@ a:hover {
 
 ';
 ?>
+

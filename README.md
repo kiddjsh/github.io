@@ -18,10 +18,10 @@ a fullstack github pages portfolio webdesign project hosted by namecheap
 Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
 
 # Known Issues
- - !NEW! The page display has UNEXPECTEDLY changed with the right position displaying right, not left.
-     - Fixed in DEBUGGER, GITHUB PAGES & CPANEL still offset
+ - !NEW! There is a new issue with the portfolio column content now displaying as an overlay, over the black background, in the hamMenu
+ - !NEW!
      - Researching Error @ Line 35 of index.html Form elements must have labels: Form element does not have an explicit <label> Element has no title attribute Element has no placeholder attribute
- - !NEW! There is a new issue with the column content now displaying as a overlay in the hamMenu
+ - There are known site functionality issues while using the Firefox Web Browser
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick()
  - There is a known issue where the hamburger menu disappears during closeNav() and autoscroll during hyperlink
  - There is known issue with the images in the left column, when hovered, display behind the images in the right
@@ -51,3 +51,4 @@ BUGFIX       | 07JAN2023  | Joshua Kidder | BUGFIX!!!Site Styling Now Displaying
 3.0          | 07JAN2023  | Joshua Kidder | Fixed error "li elements must be contained in a ul or ol" in lines 41-47
 3.0          | 07JAN2023  | Joshua Kidder | Fixed errors "Images must have alternate text: Element has no title attribute", adding screen reader descriptive alt text to lines 92, 98, 104, 109, 117, 123, 137, 143, 149, 158, 164, 170, 172, 181, 187, 193, 201, 207, 213, 216, 219, 221, 229, 235, 241, 245, 252, 258, 274, 280, 286, 288, 423
 3.0          | 07JAN2023  | Joshua Kidder | Fixed errors "Link 'rel' attribute should include 'noopener'", adding rel="noopener" tag in lines 459-460
+3.0          | 31MAR2023  | Joshua Kidder | Fixed an issue with my mail forwarder, stemming from namecheap, in CPANEL

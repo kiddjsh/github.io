@@ -19,7 +19,8 @@ Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used.
 
 # Known Issues
  - !NEW! There is a new issue with the portfolio column content now displaying as an overlay, over the black background, in the hamMenu 
- - !NEW! There is a new issue with the text display of some content, buttons and images now displaying off center
+ - !NEW! There is a new issue with the text display of some content, buttons and images now displaying off center, or to far to the left
+     - Header Text Font, Portfolio File Icons, Resume & CV Buttons, Send Message Button, Footer Git and LinkedIn Images, & Footer Text 
  - 
  - !NEW!
      - Researching Error @ Line 35 of index.html Form elements must have labels: Form element does not have an explicit <label> Element has no title attribute Element has no placeholder attribute
@@ -30,7 +31,6 @@ Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used.
  - There is known issue with the images in the left column, when hovered, display behind the images in the right
  column, instead of displaying on top
  - Some of the file icons located in the portfolio section display 404 Errors when clicking the simpleicon
-     - This is intended
  - The underscore to the left of the linkedin icon in the footer still displays even though text-decoration set to none
 
 # Version Control

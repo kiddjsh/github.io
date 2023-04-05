@@ -18,12 +18,10 @@ a fullstack github pages portfolio webdesign project hosted by namecheap
 Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
 
 # Known Issues
- - !NEW! There is a new issue with the portfolio column content now displaying as an overlay, over the black background, in the hamMenu 
+ - !NEW! There is a new issue with the portfolio column content now displaying as an overlay, over the black background, in the hamMenu
  - !NEW! There is a new issue with the text display of some content, buttons and images now displaying off center, or to far to the left
-     - Header Text Font, Portfolio File Icons, Resume & CV Buttons, Send Message Button, Footer Git and LinkedIn Images, & Footer Text 
- - 
- - !NEW!
-     - Researching Error @ Line 35 of index.html Form elements must have labels: Form element does not have an explicit <label> Element has no title attribute Element has no placeholder attribute
+     - Header Text Font, Portfolio File Icons, Resume & CV Buttons, Send Message Button, Footer Git and LinkedIn Images, & Footer Text
+ - !NEW! Researching Error @ Line 35 of index.html Form elements must have labels: Form element does not have an explicit <label> Element has no title attribute Element has no placeholder attribute
  - There are known site functionality issues while using the Firefox Web Browser
  - There is a known issue with major site functionality when directing to only https://kiddjsh.xyz
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick()

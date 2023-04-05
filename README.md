@@ -22,11 +22,13 @@ Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used.
  - !NEW!
      - Researching Error @ Line 35 of index.html Form elements must have labels: Form element does not have an explicit <label> Element has no title attribute Element has no placeholder attribute
  - There are known site functionality issues while using the Firefox Web Browser
+ - There is a known issue with major site functionality when directing to only https://kiddjsh.xyz
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick()
- - There is a known issue where the hamburger menu disappears during closeNav() and autoscroll during hyperlink
+ - There is a known issue where the hamburger menu icon disappears during closeNav() and autoscroll during hyperlink
  - There is known issue with the images in the left column, when hovered, display behind the images in the right
  column, instead of displaying on top
  - Some of the file icons located in the portfolio section display 404 Errors when clicking the simpleicon
+     - This is intended
  - The underscore to the left of the linkedin icon in the footer still displays even though text-decoration set to none
 
 # Version Control

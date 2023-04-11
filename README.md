@@ -14,8 +14,10 @@ a fullstack github pages portfolio webdesign project hosted by namecheap
   - Treasure Cave
   - bubblesCollide
   - O'Hare Crossword Puzzle
+- Adding code to implement secure PHP in stopping E-mail Injections 
 # My Contact Form
-Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
+Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger. 
+
 
 # Known Issues
  - !NEW! There is a new issue with the portfolio column content now displaying as an overlay, over the black background, in the hamMenu
@@ -40,17 +42,18 @@ Version      | Date          | Author        | Change Description |
 1.1          | 01DEC2022  | Joshua Kidder | Ported to test github.io project php services, uploaded package to cPanel, began configuration of php services on namecheap, configured web hosting, added MX record, added A records pointing to github, updated CNAME to point at github
 1.2          | 02DEC2022  | Joshua Kidder | Updated php mail() function
 1.2          | 02DEC2022  | Joshua Kidder | Updated MX record, temp removed 404.html
-2.0          | 02DEC2022  | Joshua Kidder | Prototype php mail() function services
-2.1          | 04DEC2022  | Joshua Kidder | Resolved conflicting A Records, updated CNAME, and integrated git into namecheap
-2.1          | 05DEC2022  | Joshua Kidder | Updated the php mail() function, resolved mail subject and from email reference; updated the CV file and anchor link
-2.1          | 06DEC2022  | Joshua Kidder | Added standard email validation in contact form by changing type="text" to type="email" when clicking SEND MESSAGE button
-2.1          | 07DEC2022  | Joshua Kidder | Updated skills.io, restructured certifications.io, updated certifications.io, updated viewable CV, updated contact form adding name-email-subject-message as required when clicking SEND MESSAGE button, updated footer icons following best practices for brand logos
-3.0          | 20DEC2022  | Joshua Kidder | Separated into three-band stylesheet, creating design.css and function.js, added css and javascript stylesheet links to index.html
-3.0          | 20DEC2022  | Joshua Kidder | Installed XAMMP Control Panel
-3.0          | 20DEC2022  | Joshua Kidder | Changed index.html to portfolio.html
-3.0          | 06JAN2023  | Joshua Kidder | Fixed download button functionality
+1.2          | 02DEC2022  | Joshua Kidder | Prototype php mail() function services
+1.3          | 04DEC2022  | Joshua Kidder | Resolved conflicting A Records, updated CNAME, and integrated git into namecheap
+1.3          | 05DEC2022  | Joshua Kidder | Updated the php mail() function, resolved mail subject and from email reference; updated the CV file and anchor link
+1.4          | 06DEC2022  | Joshua Kidder | Added standard email validation in contact form by changing type="text" to type="email" when clicking SEND MESSAGE button
+1.4          | 07DEC2022  | Joshua Kidder | Updated skills.io, restructured certifications.io, updated certifications.io, updated viewable CV, updated contact form adding name-email-subject-message as required when clicking SEND MESSAGE button, updated footer icons following best practices for brand logos
+2.0          | 20DEC2022  | Joshua Kidder | Separated into three-band stylesheet, creating design.css and function.js, added css and javascript stylesheet links to index.html
+2.1          | 20DEC2022  | Joshua Kidder | Installed XAMMP Control Panel
+2.2          | 06JAN2023  | Joshua Kidder | Fixed download button functionality
 BUGFIX       | 07JAN2023  | Joshua Kidder | BUGFIX!!!Site Styling Now Displaying
-3.0          | 07JAN2023  | Joshua Kidder | Fixed error "li elements must be contained in a ul or ol" in lines 41-47
-3.0          | 07JAN2023  | Joshua Kidder | Fixed errors "Images must have alternate text: Element has no title attribute", adding screen reader descriptive alt text to lines 92, 98, 104, 109, 117, 123, 137, 143, 149, 158, 164, 170, 172, 181, 187, 193, 201, 207, 213, 216, 219, 221, 229, 235, 241, 245, 252, 258, 274, 280, 286, 288, 423
-3.0          | 07JAN2023  | Joshua Kidder | Fixed errors "Link 'rel' attribute should include 'noopener'", adding rel="noopener" tag in lines 459-460
-3.0          | 31MAR2023  | Joshua Kidder | Fixed an issue with my mail forwarder, stemming from namecheap, in CPANEL
+2.3          | 07JAN2023  | Joshua Kidder | Fixed error "li elements must be contained in a ul or ol" in lines 41-47
+2.3          | 07JAN2023  | Joshua Kidder | Fixed errors "Images must have alternate text: Element has no title attribute", adding screen reader descriptive alt text to lines 92, 98, 104, 109, 117, 123, 137, 143, 149, 158, 164, 170, 172, 181, 187, 193, 201, 207, 213, 216, 219, 221, 229, 235, 241, 245, 252, 258, 274, 280, 286, 288, 423
+2.3          | 07JAN2023  | Joshua Kidder | Fixed errors "Link 'rel' attribute should include 'noopener'", adding rel="noopener" tag in lines 459-460
+2.4          | 31MAR2023  | Joshua Kidder | Fixed an issue with my mail forwarder, stemming from namecheap, in CPANEL
+2.4          | 11APR2023  | Joshua Kidder | Added Google Analytics Manager to index.html
+2.4          | 11APR2023  | Joshua Kidder | Added Google Adsense to index.html

@@ -56,4 +56,4 @@ BUGFIX       | 07JAN2023  | Joshua Kidder | BUGFIX!!!Site Styling Now Displaying
 2.3          | 07JAN2023  | Joshua Kidder | Fixed errors "Link 'rel' attribute should include 'noopener'", adding rel="noopener" tag in lines 459-460
 2.4          | 31MAR2023  | Joshua Kidder | Fixed an issue with my mail forwarder, stemming from namecheap, in CPANEL
 2.4          | 11APR2023  | Joshua Kidder | Added Google Analytics Manager to index.html
-2.4          | 11APR2023  | Joshua Kidder | Added Google Adsense to index.html
+2.4          | 11APR2023  | Joshua Kidder | Added Google Adsense to index.html; Added ads.txt to respository, and to domain root directory in cPanel for Crawler access

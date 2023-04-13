@@ -14,7 +14,9 @@ a fullstack github pages portfolio webdesign project hosted by namecheap
   - Treasure Cave
   - bubblesCollide
   - O'Hare Crossword Puzzle
-- Adding code to implement secure PHP in stopping E-mail Injections 
+- Adding code to implement secure PHP in stopping E-mail Injections
+- Adding a Web Design Brief
+- Adding a Web Design Case Study
 # My Contact Form
 Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger. 
 

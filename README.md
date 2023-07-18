@@ -7,6 +7,7 @@ a fullstack github pages portfolio webdesign project hosted by namecheap
     - CSS
     - Javascript
     - PHP
+    - YAML
 # Updates
 - Completed three-band worming for HTML, CSS, and JavaScript sections, separating into their script languages
 - Currently adding my own custom 404 matrix page for unlinked page sites
@@ -18,14 +19,15 @@ a fullstack github pages portfolio webdesign project hosted by namecheap
 - Adding a Web Design Brief
 - Adding a Web Design Case Study
 # My Contact Form
-Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger. 
+Currently in PROTOTYPE. Uses an email validation to ensure the symbol @ is used. Uses the PHP mail() function to send emails. With the PHP mail() function, emails are sent directly to my web server, to an email account that was created within cPanel, hosted on my server, that uses a local mail exchanger.
+
+# Git AutoDeployment
+Currently in TEST. My Git™ Version Control Push Deployment feature allows for use to easily host Git repositories in cPanel. Git allows for the maintaining of any set of files (for example, a website’s files and assets, a software development project, or simple text files), and the YAML file determines how and where the changed files deploy.
 
 
 # Known Issues
  - !NEW! There is a new issue with the portfolio column content now displaying as an overlay, over the black background, in the hamMenu
- - !NEW! There is a new issue with the text display of some content, buttons and images now displaying off center, or to far to the left
-     - Header Text Font, Portfolio File Icons, Resume & CV Buttons, Send Message Button, Footer Git and LinkedIn Images, & Footer Text
- - !NEW! Researching Error @ Line 35 of index.html Form elements must have labels: Form element does not have an explicit <label> Element has no title attribute Element has no placeholder attribute
+ - There is a known issue with the positioning of the File Icons located in the portfolio.xyz section
  - There are known site functionality issues while using the Firefox Web Browser
  - There is a known issue with major site functionality when directing to only https://kiddjsh.xyz
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick()
@@ -50,7 +52,7 @@ Version      | Date          | Author        | Change Description |
 1.4          | 06DEC2022  | Joshua Kidder | Added standard email validation in contact form by changing type="text" to type="email" when clicking SEND MESSAGE button
 1.4          | 07DEC2022  | Joshua Kidder | Updated skills.io, restructured certifications.io, updated certifications.io, updated viewable CV, updated contact form adding name-email-subject-message as required when clicking SEND MESSAGE button, updated footer icons following best practices for brand logos
 2.0          | 20DEC2022  | Joshua Kidder | Separated into three-band stylesheet, creating design.css and function.js, added css and javascript stylesheet links to index.html
-2.1          | 20DEC2022  | Joshua Kidder | Installed XAMMP Control Panel
+2.1          | 20DEC2022  | Joshua Kidder | Installed XAMPP Control Panel
 2.2          | 06JAN2023  | Joshua Kidder | Fixed download button functionality
 BUGFIX       | 07JAN2023  | Joshua Kidder | BUGFIX!!!Site Styling Now Displaying
 2.3          | 07JAN2023  | Joshua Kidder | Fixed error "li elements must be contained in a ul or ol" in lines 41-47
@@ -58,4 +60,8 @@ BUGFIX       | 07JAN2023  | Joshua Kidder | BUGFIX!!!Site Styling Now Displaying
 2.3          | 07JAN2023  | Joshua Kidder | Fixed errors "Link 'rel' attribute should include 'noopener'", adding rel="noopener" tag in lines 459-460
 2.4          | 31MAR2023  | Joshua Kidder | Fixed an issue with my mail forwarder, stemming from namecheap, in CPANEL
 2.4          | 11APR2023  | Joshua Kidder | Added Google Analytics Manager to index.html
-2.4          | 11APR2023  | Joshua Kidder | Added Google Adsense to index.html; Added ads.txt to respository, and to domain root directory in cPanel for Crawler access
+2.4          | 11APR2023  | Joshua Kidder | Added Google Adsense to index.html; Added ads.txt to repository, and to domain root directory in cPanel for Crawler access
+2.5          | 18JUL2023  | Joshua Kidder | Added .cpanel.yml to top-level directory for Git autoDeployment functionality
+2.5          | 18JUL2023  | Joshua Kidder | Added list of dictionary words 
+2.5          | 18JUL2023  | Joshua Kidder | updated ___.html, ___CV, and _Resume files
+2.5          | 18JUL2023  | Joshua Kidder | Fixed errors at line 52 (and 35) of ___.html "Form elements must have labels: Form element does not have an explicit <label> Element has no title attribute Element has no placeholder attribute"

@@ -4,7 +4,8 @@ deployment:
  # Begin inTest Git autoDeployment
 
  - export DEPLOYPATH=/home/kiddphmq/public_html/
- - /bin/cp index.html $DEPLOYPATH
- - /bin/cp style.css $DEPLOYPATH
+ - /bin/cp JoshuaKidder_Resume.docx $DEPLOYPATH
+ # - /bin/cp index.html $DEPLOYPATH
+ # - /bin/cp style.css $DEPLOYPATH
 
  # End inTest

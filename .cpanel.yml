@@ -3,8 +3,8 @@ deployment:
  tasks:
  # Begin inTest Git autoDeployment
 
- - export DEPLOYPATH=/home/kiddphmq/public_html/github.io/docs
- - /bin/cp JoshuaKidder_Resume.docx $DEPLOYPATH
+ # - export DEPLOYPATH=/home/kiddphmq/public_html/github.io/docs
+ # - /bin/cp JoshuaKidder_Resume.docx $DEPLOYPATH
  # - /bin/cp index.html $DEPLOYPATH
  # - /bin/cp style.css $DEPLOYPATH
 

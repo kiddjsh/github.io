@@ -27,7 +27,7 @@ Currently in TEST. My Git™ Version Control Push Deployment feature allows for 
 
 
 # Known Issues
- - There is a issue with the headshot image not displaying properly in the NEW Windows 11 Software/Hardware environment, though the headshot image is displaying properly in my Debian/Linux and Windows 10 laptop environments
+ - There is a issue with the headshot image not displaying properly in the NEW Windows 11 Software/Hardware environment, though the headshot image is displaying properly in my Debian, Kali Linux and Windows 10 laptop environments
  - The SSL Certificate is at times not auto-renewed which causes a website cannot be displayed warning banner, continuing to the site through the advanced option is still safe
  - There is a new issue with the portfolio column content now displaying as an overlay, over the black background, in the hamMenu
  - There is a known issue with the positioning of the File Icons located in the portfolio.xyz section

@@ -1,6 +1,7 @@
 # github.io
 a fullstack github pages portfolio webdesign project hosted by namecheap
 - https://www.kiddjsh.xyz
+    - There is currently a issue with the site page in Windows 11 software/hardware environments
 
 - Web Design Using
     - HTML
@@ -26,10 +27,11 @@ Currently in TEST. My Git™ Version Control Push Deployment feature allows for 
 
 
 # Known Issues
- - !NEW! There is a new issue with the portfolio column content now displaying as an overlay, over the black background, in the hamMenu
+ - There is a issue with the headshot image not displaying properly in the NEW Windows 11 Software/Hardware environment, though the headshot image is displaying properly in my Debian/Linux and Windows 10 laptop environments
+ - The SSL Certificate is at times not auto-renewed which causes a website cannot be displayed warning banner, continuing to the site through the advanced option is still safe
+ - There is a new issue with the portfolio column content now displaying as an overlay, over the black background, in the hamMenu
  - There is a known issue with the positioning of the File Icons located in the portfolio.xyz section
  - There are known site functionality issues while using the Firefox Web Browser
- - There is a known issue with major site functionality when directing to only https://kiddjsh.xyz
  - There is a known issue with the hamburger menu__menu box closeNav() where it doesn't close properly during onClick()
  - There is a known issue where the hamburger menu icon disappears during closeNav() and autoscroll during hyperlink
  - There is known issue with the images in the left column, when hovered, display behind the images in the right
@@ -64,4 +66,4 @@ BUGFIX       | 07JAN2023  | Joshua Kidder | BUGFIX!!!Site Styling Now Displaying
 2.5          | 18JUL2023  | Joshua Kidder | Added .cpanel.yml to top-level directory for Git autoDeployment functionality
 2.5          | 18JUL2023  | Joshua Kidder | Added list of dictionary words 
 2.5          | 18JUL2023  | Joshua Kidder | updated ___.html, ___CV, and _Resume files
-2.5          | 18JUL2023  | Joshua Kidder | Fixed errors at line 52 (and 35) of ___.html "Form elements must have labels: Form element does not have an explicit <label> Element has no title attribute Element has no placeholder attribute"
+2.5          | 18JUL2023  | Joshua Kidder | Fixed errors at line 52 (and 35) of ___.html "Form elements must have labels: Form element does not have an explicit <label> Element has no title attribute Element has no placeholder attribute
